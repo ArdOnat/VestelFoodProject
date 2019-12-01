@@ -9,21 +9,48 @@
 /* Begin PBXBuildFile section */
 		47F8618123942F1600934649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F8618023942F1600934649 /* AppDelegate.swift */; };
 		47F8618323942F1600934649 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F8618223942F1600934649 /* SceneDelegate.swift */; };
-		47F8618523942F1600934649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F8618423942F1600934649 /* ContentView.swift */; };
+		47F8618523942F1600934649 /* DayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F8618423942F1600934649 /* DayList.swift */; };
 		47F8618723942F1700934649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F8618623942F1700934649 /* Assets.xcassets */; };
 		47F8618A23942F1700934649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F8618923942F1700934649 /* Preview Assets.xcassets */; };
 		47F8618D23942F1700934649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F8618B23942F1700934649 /* LaunchScreen.storyboard */; };
+		47F861B5239432EA00934649 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F861B4239432EA00934649 /* Structs.swift */; };
+		47F861B72394331400934649 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F861B62394331400934649 /* Data.swift */; };
+		47F861B92394334200934649 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F861B82394334200934649 /* UserData.swift */; };
+		47F861BB2394338300934649 /* DayRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F861BA2394338300934649 /* DayRow.swift */; };
+		47F861BF23943B2200934649 /* DateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F861BE23943B2200934649 /* DateTitle.swift */; };
+		47F861C123943B7F00934649 /* FoodSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F861C023943B7F00934649 /* FoodSearchView.swift */; };
+		47F861C323943E8E00934649 /* kasım2019.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47F861BC239434CD00934649 /* kasım2019.json */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47F861C223943E6E00934649 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				47F861C323943E8E00934649 /* kasım2019.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		47F8617D23942F1600934649 /* VestelFoodProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VestelFoodProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F8618023942F1600934649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47F8618223942F1600934649 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		47F8618423942F1600934649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47F8618423942F1600934649 /* DayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayList.swift; sourceTree = "<group>"; };
 		47F8618623942F1700934649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47F8618923942F1700934649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		47F8618C23942F1700934649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47F8618E23942F1700934649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F861B4239432EA00934649 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		47F861B62394331400934649 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		47F861B82394334200934649 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		47F861BA2394338300934649 /* DayRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRow.swift; sourceTree = "<group>"; };
+		47F861BC239434CD00934649 /* kasım2019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "kasım2019.json"; sourceTree = "<group>"; };
+		47F861BE23943B2200934649 /* DateTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTitle.swift; sourceTree = "<group>"; };
+		47F861C023943B7F00934649 /* FoodSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +67,7 @@
 		47F8617423942F1600934649 = {
 			isa = PBXGroup;
 			children = (
+				47F861BC239434CD00934649 /* kasım2019.json */,
 				47F8617F23942F1600934649 /* VestelFoodProject */,
 				47F8617E23942F1600934649 /* Products */,
 			);
@@ -56,9 +84,10 @@
 		47F8617F23942F1600934649 /* VestelFoodProject */ = {
 			isa = PBXGroup;
 			children = (
+				47F861A9239431E100934649 /* Swift Files */,
+				47F861AD2394321700934649 /* SwiftUI Files */,
 				47F8618023942F1600934649 /* AppDelegate.swift */,
 				47F8618223942F1600934649 /* SceneDelegate.swift */,
-				47F8618423942F1600934649 /* ContentView.swift */,
 				47F8618623942F1700934649 /* Assets.xcassets */,
 				47F8618B23942F1700934649 /* LaunchScreen.storyboard */,
 				47F8618E23942F1700934649 /* Info.plist */,
@@ -75,6 +104,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		47F861A9239431E100934649 /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F861B4239432EA00934649 /* Structs.swift */,
+				47F861B62394331400934649 /* Data.swift */,
+				47F861B82394334200934649 /* UserData.swift */,
+			);
+			path = "Swift Files";
+			sourceTree = "<group>";
+		};
+		47F861AD2394321700934649 /* SwiftUI Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F8618423942F1600934649 /* DayList.swift */,
+				47F861BA2394338300934649 /* DayRow.swift */,
+				47F861BE23943B2200934649 /* DateTitle.swift */,
+				47F861C023943B7F00934649 /* FoodSearchView.swift */,
+			);
+			path = "SwiftUI Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +135,7 @@
 				47F8617923942F1600934649 /* Sources */,
 				47F8617A23942F1600934649 /* Frameworks */,
 				47F8617B23942F1600934649 /* Resources */,
+				47F861C223943E6E00934649 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -146,9 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F861B92394334200934649 /* UserData.swift in Sources */,
 				47F8618123942F1600934649 /* AppDelegate.swift in Sources */,
+				47F861BF23943B2200934649 /* DateTitle.swift in Sources */,
 				47F8618323942F1600934649 /* SceneDelegate.swift in Sources */,
-				47F8618523942F1600934649 /* ContentView.swift in Sources */,
+				47F861B5239432EA00934649 /* Structs.swift in Sources */,
+				47F861B72394331400934649 /* Data.swift in Sources */,
+				47F861BB2394338300934649 /* DayRow.swift in Sources */,
+				47F861C123943B7F00934649 /* FoodSearchView.swift in Sources */,
+				47F8618523942F1600934649 /* DayList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
