@@ -11,5 +11,8 @@ import Foundation
 final class UserData: ObservableObject {
     @Published var showLikesOnly = false
     @Published var showDislikesOnly = false
-    @Published var days = dayData
+    @Published var dayArray = dayData
+    @Published var foodArray = foodData
+    @Published var likes = [String]()
+    @Published var dislikes = [String]()
 }

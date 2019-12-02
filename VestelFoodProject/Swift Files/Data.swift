@@ -8,8 +8,11 @@
 
 import Foundation
 
-let foodData: [DailyFood] = load("kasım2019")
-let dayData: [Day] = convertDailyFoodsToDay(dailyFoods: foodData)
+let dailyFoodData: [DailyFood] = load("aralık2019")
+var dayData: [Day] = convertDailyFoodsToDay(dailyFoods: dailyFoodData)
+let foodData = getFoods()
+//let foodData = convertDailyFoodsToFood(searchText: "")
+
 
 func load(_ fileName: String) -> [DailyFood] {
     if let url = Bundle.main.url(forResource: fileName, withExtension: "json" ) {
@@ -28,10 +31,11 @@ func load(_ fileName: String) -> [DailyFood] {
 func convertDailyFoodsToDay(dailyFoods: [DailyFood]) -> [Day]{
     var days = [Day]()
     
-    for n in 1...dailyFoods.count - 1 {
-        let day:Day = Day(id: n, foodScore: 0, dailyFood: dailyFoods[n], Date: dailyFoods[n].Date)
+    for n in 0...dailyFoods.count - 1 { // Change each month
+        let day:Day = Day(id: n+1, foodScore: 0, dailyFood: dailyFoods[n], Date: dailyFoods[n].Date)
         days.append(day)
     }
     
     return days
 }
+

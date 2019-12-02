@@ -18,7 +18,6 @@ struct DailyFood: Decodable {
     var F2: String
     var F3: String
     var F4: String
-    var F5: String
 }
 
 struct Day: Identifiable {
