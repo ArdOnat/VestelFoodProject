@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4766A1212394D4F800EC8D20 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4766A1202394D4F800EC8D20 /* FoodDetailView.swift */; };
+		4766A1282394FAC100EC8D20 /* aralık2019.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4766A1272394FAC100EC8D20 /* aralık2019.json */; };
 		47F8618123942F1600934649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F8618023942F1600934649 /* AppDelegate.swift */; };
 		47F8618323942F1600934649 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F8618223942F1600934649 /* SceneDelegate.swift */; };
 		47F8618523942F1600934649 /* DayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F8618423942F1600934649 /* DayList.swift */; };
@@ -29,6 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				4766A1282394FAC100EC8D20 /* aralık2019.json in CopyFiles */,
 				47F861C323943E8E00934649 /* kasım2019.json in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,6 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4766A1202394D4F800EC8D20 /* FoodDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		4766A1272394FAC100EC8D20 /* aralık2019.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "aralık2019.json"; sourceTree = "<group>"; };
 		47F8617D23942F1600934649 /* VestelFoodProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VestelFoodProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F8618023942F1600934649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47F8618223942F1600934649 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +72,7 @@
 		47F8617423942F1600934649 = {
 			isa = PBXGroup;
 			children = (
+				4766A1272394FAC100EC8D20 /* aralık2019.json */,
 				47F861BC239434CD00934649 /* kasım2019.json */,
 				47F8617F23942F1600934649 /* VestelFoodProject */,
 				47F8617E23942F1600934649 /* Products */,
@@ -121,6 +127,7 @@
 				47F861BA2394338300934649 /* DayRow.swift */,
 				47F861BE23943B2200934649 /* DateTitle.swift */,
 				47F861C023943B7F00934649 /* FoodSearchView.swift */,
+				4766A1202394D4F800EC8D20 /* FoodDetailView.swift */,
 			);
 			path = "SwiftUI Files";
 			sourceTree = "<group>";
@@ -206,6 +213,7 @@
 				47F861BB2394338300934649 /* DayRow.swift in Sources */,
 				47F861C123943B7F00934649 /* FoodSearchView.swift in Sources */,
 				47F8618523942F1600934649 /* DayList.swift in Sources */,
+				4766A1212394D4F800EC8D20 /* FoodDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +358,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = application.VestelFoodProject.VestelFoodProject;
+				PRODUCT_BUNDLE_IDENTIFIER = application.VestelFoodProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,7 +378,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = application.VestelFoodProject.VestelFoodProject;
+				PRODUCT_BUNDLE_IDENTIFIER = application.VestelFoodProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

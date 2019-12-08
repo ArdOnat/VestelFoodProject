@@ -23,8 +23,9 @@ struct DailyFood: Decodable {
 struct Day: Identifiable {
     var id: Int
     var foodScore: Int
-    var dailyFood: DailyFood
+    let dailyFood: DailyFood
     var Date: String
+    var currentDayFoodNameArray: [String]
 }
 
 struct Food: Identifiable {

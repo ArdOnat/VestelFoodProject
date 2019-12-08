@@ -8,7 +8,7 @@
 
 import Foundation
 
-let dailyFoodData: [DailyFood] = load("aralık2019")
+var dailyFoodData: [DailyFood] = load("aralık2019")
 var dayData: [Day] = convertDailyFoodsToDay(dailyFoods: dailyFoodData)
 let foodData = getFoods()
 //let foodData = convertDailyFoodsToFood(searchText: "")
@@ -32,7 +32,7 @@ func convertDailyFoodsToDay(dailyFoods: [DailyFood]) -> [Day]{
     var days = [Day]()
     
     for n in 0...dailyFoods.count - 1 { // Change each month
-        let day:Day = Day(id: n+1, foodScore: 0, dailyFood: dailyFoods[n], Date: dailyFoods[n].Date)
+        var day:Day = Day(id: n+1, foodScore: 0, dailyFood: dailyFoods[n], Date: dailyFoods[n].Date, currentDayFoodNameArray: [dailyFoods[n].F1, dailyFoods[n].F2, dailyFoods[n].F3, dailyFoods[n].F4])
         days.append(day)
     }
     

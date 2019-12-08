@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct DateTitle: View {
     @EnvironmentObject var userData: UserData
@@ -22,17 +23,16 @@ struct DateTitle: View {
                 .foregroundColor(.green)
         
             List  {
-                ForEach(userData.days) { day in
-                    if day.id != 0 {
+                ForEach(userData.dayArray) { day in
                         if !day.Date.contains("Cumartesi") {
                             DayRow(day: day, currentDate: self.date)
                         }
-                    }
                 }.padding(.init(top:0, leading:0, bottom: 15, trailing:0))
             }
         }
     }
 }
+
 struct DateTitle_Previews: PreviewProvider {
     static var previews: some View {
         DateTitle()

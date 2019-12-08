@@ -13,6 +13,6 @@ final class UserData: ObservableObject {
     @Published var showDislikesOnly = false
     @Published var dayArray = dayData
     @Published var foodArray = foodData
-    @Published var likes = [String]()
-    @Published var dislikes = [String]()
+    @Published var likes = UserDefaults.standard.array(forKey: "likes_array")
+    @Published var dislikes = UserDefaults.standard.array(forKey: "dislikes_array")
 }

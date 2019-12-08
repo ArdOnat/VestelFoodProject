@@ -13,14 +13,11 @@ struct DayList: View {
     @State private var date = Date()
     @State var isActive: Bool = false
     
-    //let screenSize: CGRect = UIScreen.main.bounds
-    
     var body: some View {
         let formatter = DateFormatter()
         formatter.dateStyle = .full
-        
-       return NavigationView {
-            VStack() {
+        return NavigationView {
+            return VStack() {
                 HStack() {
                     NavigationLink(destination: FoodSearchView(), isActive: self.$isActive, label: {
                         Text("")
@@ -28,7 +25,7 @@ struct DayList: View {
                     
                 .navigationBarTitle("Food List", displayMode: .inline)
                 .navigationBarItems(trailing:
-                    Button("Search") {
+                    Button("Food List") {
                         self.isActive = true
                     })
                 }
