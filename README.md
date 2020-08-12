@@ -1,9 +1,6 @@
 # VestelFoodProject
 
-A iOS application that displays monthly food menu of Vestel.
-
-
-A iOS application that displays monthly food menu of Vestel.
+An iOS application that displays monthly food menu of Vestel.
 
 # What I Learned
 
